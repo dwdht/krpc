@@ -1,0 +1,28 @@
+{
+  "name": "@dwdht/krpc",
+  "version": "0.1.1",
+  "description": "dWeb Library Implementation For K-RPC's Protocol For Use With BitTorrent's DHT.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Bench Computer, Inc. <legal@benchx.io>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "dependencies": {
+    "@dwdht/krpc-socket": "dwdht/krpc-socket#master",
+    "buffer-equals": "^1.0.3",
+    "k-bucket": "^4.0.0",
+    "randombytes": "^2.0.5",
+    "safe-buffer": "^5.1.1"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tape": "^4.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
